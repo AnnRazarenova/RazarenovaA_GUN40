@@ -40,10 +40,18 @@ namespace Netologia.Homework
 
 		private void Spawn()
 		{
-			_ball = Instantiate(_ballPrefab, transform);
-			_ball.isKinematic = true;
-			_ready = true;
-		}
+            _ball = Instantiate(_ballPrefab, transform);
+            
+            Vector3 parentScale = transform.lossyScale;
+            Vector3 desiredScale = new Vector3(1.5f, 1.5f, 1.5f);
+            _ball.transform.localScale = new Vector3(
+                desiredScale.x / parentScale.x,
+                desiredScale.y / parentScale.y,
+                desiredScale.z / parentScale.z
+            );
+            _ball.isKinematic = true;
+            _ready = true;
+        }
 
 		private void Start()
 		{

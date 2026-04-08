@@ -46,20 +46,6 @@ public class Mover : MonoBehaviour
             }
 			yield return null;
 		}
-		//      var time = 0f;
-
-		//var center = transform.position;
-
-
-		//transform.position = Vector3.Lerp(transform.position, center + _start, time / _moveTime);
-		//time += Time.deltaTime;
-		//while (time >= _moveTime)
-		//{
-		//	time = 0f;
-
-
-		//          yield return new WaitForSeconds(_delay);
-		//      }
 
 	}
 	
