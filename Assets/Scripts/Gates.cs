@@ -6,7 +6,7 @@ public class Gates : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.CompareTag("ball"))
+        if(other.gameObject.CompareTag("Ball"))
         {
             Destroy(other.gameObject);
             score++;

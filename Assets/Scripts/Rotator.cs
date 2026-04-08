@@ -9,14 +9,20 @@ public class Rotator : MonoBehaviour
 
 
     // Start is called before the first frame update
-    void Start()
+    private IEnumerator Start()
     {
-        
+        Rigidbody rb = GetComponent<Rigidbody>();
+
+        if (rb != null)
+        {
+            rb.isKinematic = true;
+        }
+
+        while (true)
+        {
+            transform.Rotate(_rotate * Time.deltaTime);
+            yield return null;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
