@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73290a3ba3de7c84fa70fafae9e226e0, type: 3}
   m_Name: New CellPalletteSettings
   m_EditorClassIdentifier: 
-  <SelectCell>k__BackingField: {fileID: 2100000, guid: 1bd2db5e8a48750499297e0e6a3a7627, type: 2}
+  <SelectCell>k__BackingField: {fileID: 2100000, guid: 89e89f0f5e5a6354899c6a6b90f9c6a4, type: 2}
   <MoveCell>k__BackingField: {fileID: 2100000, guid: c75ea5a5eb9e8684497c2c04aaa4867d, type: 2}
