@@ -1,22 +1,28 @@
 public enum NeighbourType
 {
     None = 0,
-    Left = 1,
-    Right = 2,
-    Forward = 4,
-    Backward = 8,
-    ForwardLeft = Left | Forward,
-    BackwardLeft = Left | Backward,
-    ForwardRight = Right | Forward,
-    BackwardRight = Right | Backward
+    ForwardRight = 1,
+    ForwardLeft = 2,
+    BackwardRight = 4,
+    BackwardLeft = 8,
 }
 
-/// <summary>
-/// Игровые команды
-/// </summary>
 public enum Team
 {
+    White = 0,
+    Black = 1
+}
+
+public enum UnitPower
+{
     None = 0,
-    Player1 = 1,
-    Player2 = 2
+    Queen = 1
+}
+
+public enum GameEvent
+{
+    Empty = 0,
+    Select = 1,
+    Censel = 2,
+    Confirm = 3
 }

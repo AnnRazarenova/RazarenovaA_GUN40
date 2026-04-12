@@ -9,8 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73290a3ba3de7c84fa70fafae9e226e0, type: 3}
+  m_Script: {fileID: 11500000, guid: 25641477c871dcf48ae3ab5930430182, type: 3}
   m_Name: New CellPalletteSettings
   m_EditorClassIdentifier: 
   <SelectCell>k__BackingField: {fileID: 2100000, guid: 89e89f0f5e5a6354899c6a6b90f9c6a4, type: 2}
   <MoveCell>k__BackingField: {fileID: 2100000, guid: c75ea5a5eb9e8684497c2c04aaa4867d, type: 2}
+  <SelectUnit>k__BackingField: {fileID: 2100000, guid: 73f040ab7a859db49a27dcfee21f9fcd, type: 2}
+  WhiteUnitMaterial: {fileID: 2100000, guid: c37e043db36f59e4194aa166e0c8a1f7, type: 2}
+  BlackUnitMaterial: {fileID: 2100000, guid: 3c3b0438aacea6b42b7a727a5cd90ead, type: 2}
+  WhiteQueenMaterial: {fileID: 2100000, guid: e004d7ef9c51cd04c8a6cacbe94a3850, type: 2}
+  BlackQueenMaterial: {fileID: 2100000, guid: 04ea1b6f22ac23f43ae668fbec37b116, type: 2}

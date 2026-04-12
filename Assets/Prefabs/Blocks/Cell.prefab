@@ -118,7 +118,6 @@ GameObject:
   - component: {fileID: 8271207625828022478}
   - component: {fileID: 2327415031174962164}
   - component: {fileID: 4729315671764707192}
-  - component: {fileID: 4259429110106337542}
   m_Layer: 6
   m_Name: Cell
   m_TagString: Untagged
@@ -207,27 +206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _focus: {fileID: 5007320858174356521}
   _select: {fileID: 6948891535489595122}
---- !u!65 &4259429110106337542
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7301716750846416137}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  _cellRenderer: {fileID: 2327415031174962164}
 --- !u!1 &8218968422687972832
 GameObject:
   m_ObjectHideFlags: 0
@@ -290,7 +269,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c75ea5a5eb9e8684497c2c04aaa4867d, type: 2}
+  - {fileID: 2100000, guid: 89e89f0f5e5a6354899c6a6b90f9c6a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
