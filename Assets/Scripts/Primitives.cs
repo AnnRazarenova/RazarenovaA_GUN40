@@ -1,18 +1,22 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class Primitives : MonoBehaviour
+public enum NeighbourType
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    None = 0,
+    Left = 1,
+    Right = 2,
+    Forward = 4,
+    Backward = 8,
+    ForwardLeft = Left | Forward,
+    BackwardLeft = Left | Backward,
+    ForwardRight = Right | Forward,
+    BackwardRight = Right | Backward
+}
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+/// <summary>
+/// Игровые команды
+/// </summary>
+public enum Team
+{
+    None = 0,
+    Player1 = 1,
+    Player2 = 2
 }
